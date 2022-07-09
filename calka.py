@@ -13,4 +13,3 @@ def calka(func, a, b, n):
 
 integral = calka(lambda x: math.sin(x), 0.0, math.pi, 100)
 print(integral)
-#es
