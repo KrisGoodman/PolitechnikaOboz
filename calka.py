@@ -12,7 +12,7 @@ def calkaProstokat(func, a, b, n):
   delta_x = (b - a)/n
   total = 0
   for i in range(n):
-    x = i * delta_x
+    x = a + i * delta_x
     total += delta_x * func(x)
   return total
 
